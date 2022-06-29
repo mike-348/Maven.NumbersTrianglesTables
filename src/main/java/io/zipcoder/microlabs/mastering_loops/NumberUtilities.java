@@ -10,7 +10,7 @@ public class NumberUtilities {
             }
         }
         return result;
-    }
+    } //passed
 
 
     public static String getOddNumbers(int start, int stop) {
@@ -21,7 +21,7 @@ public class NumberUtilities {
             }
         }
         return result;
-    }
+    } //passed
 
 
     public static String getSquareNumbers(int start, int stop, int step) {
@@ -30,7 +30,7 @@ public class NumberUtilities {
             result += (i * i);
         }
         return result;
-    }
+    } //passed
 
     public static String getRange(int stop) {
         String result = "";
@@ -38,7 +38,7 @@ public class NumberUtilities {
             result += i;
         }
         return result;
-    }
+    } //passed
 
     public static String getRange(int start, int stop) {
         String result = "";
@@ -46,7 +46,7 @@ public class NumberUtilities {
             result += i;
         }
         return result;
-    }
+    } //passed
 
 
     public static String getRange(int start, int stop, int step) {
@@ -61,7 +61,7 @@ public class NumberUtilities {
             s = s.append(String.valueOf(i));
         }
         return s.toString();
-    }
+    } //passed
 
 
     public static String getExponentiations(int start, int stop, int step, int exponent) {
